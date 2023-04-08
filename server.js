@@ -317,7 +317,7 @@ const privateMessageHandler = async (message) => {
         parse_mode: "Markdown",
       });
     }
-    return await sendMessage(message.chat.id, "You can Send / Forward anime screenshots to me.");
+    return await sendMessage(message.chat.id, "Puedes enviarme/reenviar capturas de pantalla de anime.✨");
   }
 
   await sendChatAction(message.chat.id, "typing");
